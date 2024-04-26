@@ -7,7 +7,7 @@ def bubble_sort(list):
                 lista[j], lista[j+1] = lista[j+1], lista[j]
 
 #Ejemplo de lista
-lista = [52, 21, 12, 83, 42, 5, 6]
+lista = [i for i in range(1000, 0, -1)]
 print("Lista original:\n", lista)
 bubble_sort(lista)
 print("\nLista ordenada:")
